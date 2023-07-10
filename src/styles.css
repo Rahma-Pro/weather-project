@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  background-color: #6781f7;
+}
+
+.search input{
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  margin-bottom: 10px;
+}
+.search input:focus{
+  outline: none;
+}
+.search input,
+.container{
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 19px 1px blue;
+  background-image: linear-gradient(#8989f3,#f0f0af);
+}
+.container{
+  text-align: center;
+  /* color: white; */
+  /* display: flex; */
+
+}
+
